@@ -260,6 +260,11 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!82 &129514012 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8816242443158787133, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
+  m_PrefabInstance: {fileID: 527695764}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &152435675
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,11 +975,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 313434677051275633, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000016468091
+      value: -0.000000016350269
       objectReference: {fileID: 0}
     - target: {fileID: 313434677051275633, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000049861364
+      value: 0.0000000049504614
       objectReference: {fileID: 0}
     - target: {fileID: 819644060854802906, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1110,11 +1115,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3747869284792666193, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000018854669
+      value: 0.000000018854518
       objectReference: {fileID: 0}
     - target: {fileID: 3747869284792666193, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000045364934
+      value: -0.0000000045360578
       objectReference: {fileID: 0}
     - target: {fileID: 3761147957743961851, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1146,7 +1151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3860781564128955858, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 2.4586465
+      value: 21.95
       objectReference: {fileID: 0}
     - target: {fileID: 4331526184860590745, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_FollowOffset.y
@@ -1234,11 +1239,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6897238990072364488, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 2.4586465
+      value: 21.95
       objectReference: {fileID: 0}
     - target: {fileID: 7904292668821619395, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 2.4586465
+      value: 21.95
       objectReference: {fileID: 0}
     - target: {fileID: 8161133004002281745, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_RootOrder
@@ -1302,11 +1307,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8644808944193363504, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -1.7637003e-16
       objectReference: {fileID: 0}
     - target: {fileID: 8644808944193363504, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -1.0523287e-16
       objectReference: {fileID: 0}
     - target: {fileID: 9127968736877887003, guid: b73fb843e32da5244bd223b45d55f4f7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2600,8 +2605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 254.35468, y: 0}
-  m_SizeDelta: {x: 286.1491, y: -341.65137}
+  m_AnchoredPosition: {x: 254.34998, y: 0.0022277832}
+  m_SizeDelta: {x: 286.15, y: -332.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442142158
 MonoBehaviour:
@@ -2941,6 +2946,7 @@ GameObject:
   - component: {fileID: 1625467734}
   - component: {fileID: 1625467733}
   - component: {fileID: 1625467736}
+  - component: {fileID: 1625467737}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3010,6 +3016,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 527841488}
   pauseKey: 27
+--- !u!114 &1625467737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625467732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cb3a9d4d761e94083c1907737cfa49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ribbitKey: 114
+  audioSource: {fileID: 129514012}
+  cooldown: 0.3
 --- !u!1 &1704941326
 GameObject:
   m_ObjectHideFlags: 0
